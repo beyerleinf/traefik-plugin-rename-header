@@ -11,7 +11,7 @@ experimental:
   plugins:
     renameHeaders:
       modulename: "github.com/beyerleinf/traefik-plugin-rename-header"
-      version: "v1.0.0"
+      version: "v1.1.0"
 ```
 
 ### Dynamic
