@@ -32,6 +32,7 @@ http:
   middlewares:
     renameHeaders:
       plugin:
-        oldHeader: "X-Old"
-        newHeader: "X-New"
+        renameHeaders:
+          oldHeader: "X-Old"
+          newHeader: "X-New"
 ```
