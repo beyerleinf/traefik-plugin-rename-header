@@ -1,0 +1,8 @@
+displayName: "Rename Header Plugin"
+type: "middleware"
+import: "github.com/beyerleinf/traefik-plugin-rename-header"
+summary: "This plugin allows you to define a middleware to rename an HTTP Header while preserving its value."
+iconPath: .assets/icon.png
+testData:
+  OldHeader: "X-Test-Header"
+  NewHeader: "X-New-Header"
