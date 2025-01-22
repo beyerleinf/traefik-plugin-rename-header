@@ -72,7 +72,7 @@ func TestNewValidation(t *testing.T) {
 	}
 }
 
-func Testplugin(t *testing.T) {
+func TestPlugin(t *testing.T) {
 	tests := []struct {
 		name            string
 		oldHeader       string
