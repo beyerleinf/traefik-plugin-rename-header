@@ -1,4 +1,4 @@
-package renameheader
+package traefik_plugin_rename_header
 
 import (
 	"context"
