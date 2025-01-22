@@ -31,7 +31,7 @@ jobs:
           # git diff --exit-code ./vendor/
 
       - name: Test
-        run: go test -v cover ./...
+        run: go test -v -cover ./...
 
       - name: "Lint"
         uses: golangci/golangci-lint-action@v6
